@@ -16,7 +16,6 @@ class Router:
         self.main_page = main_page
         self.stacked_widget.addWidget(self.main_page)
         self.stacked_widget.setCurrentWidget(self.main_page)
-
     def set_settings_page(self, settings_page):
         self.settings_page = settings_page
         self.stacked_widget.addWidget(self.settings_page)

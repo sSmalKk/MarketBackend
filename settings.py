@@ -1,31 +1,20 @@
-default_settings = {
-    "resolution": "1920x1080",
-    "volume": 80,
-    "controls": {
-        "move_up": "W",
-        "move_down": "S",
-        "move_left": "A",
-        "move_right": "D",
-        "jump": "Space",
-    }
-}
-# Lista de inputs e seus valores padrão
-INPUTS = [
-    {"name": "forward", "default_value": "W"},
-    {"name": "back", "default_value": "S"},
-    {"name": "left", "default_value": "A"},
-    {"name": "right", "default_value": "D"},
-    {"name": "jump", "default_value": "Space"},
-    {"name": "inventory", "default_value": "I"},
-    {"name": "drop", "default_value": "Q"},
-    {"name": "use", "default_value": "E"},
-    {"name": "attack", "default_value": "Left Click"}
+SETTINGS = [
+    {"name": "Graphics Quality", "options": ["Low", "Medium", "High"], "default": "Medium"},
+    {"name": "Sound Volume", "options": ["Mute", "Low", "Medium", "High"], "default": "Medium"},
+    {"name": "Controls", "options": ["Keyboard", "Gamepad", "Touch"], "default": "Keyboard"},
 ]
+RESOLUTIONS = ["1920x1080", "1280x720", "800x600"]
 
-RESOLUTIONS = [
-    "1920x1080",
-    "1280x720",
-    "1024x768",
-    "800x600",
-    "640x480"
+DEFAULT_SETTINGS = {
+    "Setting 1": "Value 1",
+    "Setting 2": "Value 2",
+    "Setting 3": "Value 3",
+    "resolution": "1920x1080",
+}
+
+INPUT = [
+    {"name": "Forward", "options": ["Key: 87"], "default": "Key: 87"},
+    {"name": "Back", "options": ["Key: 83"], "default": "Key: 83"},
+    {"name": "Left", "options": ["Key: 65"], "default": "Key: 65"},
+    {"name": "Right", "options": ["Key: 68"], "default": "Key: 68"},
 ]
